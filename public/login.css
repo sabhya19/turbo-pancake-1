@@ -4,16 +4,19 @@ div.loginwindow{
     padding:20px;
     box-sizing:border-box;
     max-width: 100%;
+    position:fixed;
+    top:10%;
+    right:20px;
 }
 input[type=submit]
 {border-radius:3px;
-border-block-end-color:#c49f9f;
+border-block-end-color:#c49f95;
 padding:5px;
 line-height: auto;
-display:inline-block;
+display:block;
  }
  input[type=submit]:hover{
      border:solid #c49f9f;
-display:inline-block;
+display:block;
  }
  input[type=password]{color:black;}
